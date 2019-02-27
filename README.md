@@ -1,5 +1,4 @@
 # yaml-hook
-
 require() hook to load .yml/.yaml YAML files as JS objects
 
 [Install](#install) - [Usage](#usage) - [License: Apache-2.0](#license)
@@ -16,13 +15,11 @@ require() hook to load .yml/.yaml YAML files as JS objects
 [standard-url]: http://npm.im/standard
 
 ## Install
-
 ```
 npm install yaml-hook
 ```
 
 ## Usage
-
 This hook supports .yml and .yaml files. It uses [js-yaml](https://github.com/nodeca/js-yaml)'s `safeLoad` function, so YAML-native things are supported, and JS-specific regex/function types are not supported.
 
 ```js
@@ -54,5 +51,4 @@ import 'yaml-hook/register'
 ```
 
 ## License
-
 [Apache-2.0](LICENSE.md)
