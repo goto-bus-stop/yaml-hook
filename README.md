@@ -1,6 +1,8 @@
 # yaml-hook
 require() hook to load .yml/.yaml YAML files as JS objects
 
+Compared to [yamlify](https://github.com/dmapper/yamlify), this package does not include a browserify transform and does not handle yaml includes. If you use yaml as a prettier JSON for a configuration or language file, this is more than enough!
+
 [Install](#install) - [Usage](#usage) - [License: Apache-2.0](#license)
 
 [![npm][npm-image]][npm-url]
