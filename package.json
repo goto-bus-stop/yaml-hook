@@ -1,0 +1,35 @@
+{
+  "name": "yaml-hook",
+  "description": "require() hook to load .yml/.yaml YAML files as JS objects",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/yaml-hook/issues"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/yaml-hook",
+  "keywords": [
+    "extensions",
+    "hook",
+    "require",
+    "yaml",
+    "yml"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/yaml-hook.git"
+  },
+  "scripts": {
+    "test": "standard && node test | tap-spec"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.2",
+    "pirates": "^4.0.1"
+  }
+}
